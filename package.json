@@ -1,0 +1,24 @@
+{
+  "name": "satisstyles",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "CSS",
+    "CSS_GENERATION"
+  ],
+  "homepage": "https://github.com/SatisCorprperation/SatisStyles#readme",
+  "bugs": {
+    "url": "https://github.com/SatisCorprperation/SatisStyles/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatisCorprperation/SatisStyles.git"
+  },
+  "license": "MIT",
+  "author": "gtref",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No TESTS\""
+  }
+}
