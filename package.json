@@ -1,10 +1,12 @@
 {
   "name": "satisstyles",
   "version": "0.0.1",
-  "description": "",
+  "description": "A visual CSS workspace for building and exporting complete stylesheets.",
   "keywords": [
     "CSS",
-    "CSS_GENERATION"
+    "CSS_GENERATION",
+    "NEXTJS",
+    "STYLE-GENERATOR"
   ],
   "homepage": "https://github.com/SatisCorprperation/SatisStyles#readme",
   "bugs": {
@@ -16,9 +18,17 @@
   },
   "license": "MIT",
   "author": "gtref",
-  "type": "commonjs",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next dev",
+    "start:prod": "next start",
     "test": "echo \"No TESTS\""
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }
